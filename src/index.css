@@ -37,11 +37,10 @@ h1{
   font-size: 50px;
   background-color: #30336b;
   padding: 6px 0 2px 0;
-  margin-bottom: 10px;
+  margin-bottom: 3rem;
   box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
 }
-
-button{
+Button{
   border-color: transparent;
   background-color: #30336b;
   color: #fff;
@@ -53,13 +52,14 @@ button{
   outline: none;
   border: none;
   box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
-  margin-top: 3rem;
 
 }
-button:hover{
-  background-color: #22a6b3;
-  transition: 0.4s all ease-in;
-  cursor: pointer;
+
+.btn_green:hover{
+  color: #58f568;
+}
+.btn_red:hover{
+  color: crimson;
 }
 
 .btn_div{
@@ -78,7 +78,7 @@ button:hover{
   }
   button{
 
-    margin-top: 1rem;
+    margin-top: 1.8rem;
   
   }
 }
